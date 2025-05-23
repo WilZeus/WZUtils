@@ -1,0 +1,57 @@
+name: WZUtils
+version: 1.0
+main: com.wilzeus.firstplugin.FirstPlugin
+api-version: 1.20
+commands:
+  clearchat:
+    description: clears chat
+    usage: /clearchat
+  gmc:
+    description: sets ur gamemode to creative
+    usage: /gmc
+  gms:
+    description: sets ur gamemode to survival
+    usage: /gms
+  fly:
+    description: makes you fly
+    usage: /fly
+  heal:
+    description: heals you
+    usage: /heal
+  feed:
+    description: feeds you
+    usage: /feed
+  ping:
+    description: gives you ur ping
+    usage: /ping
+  hat:
+    description: sets ur hat to set item
+    usage: /hat
+  glow:
+    description: makes you glow
+    usage: /glow
+permissions:
+  firstplugin.heal:
+    description: permission for feed idk
+    default: op
+  firstplugin.lightning:
+    description: permission for lightning
+    default: op
+  firstplugin.setspawn:
+    description: permission for setting spawn
+    default: op
+  clearchat.use:
+    description: permission for clearing chat
+    default: op
+  firstplugin.gmc:
+    description: permission for using gmc
+    default: op
+  firstplugin.gms:
+    description: permission for using gms
+    default: op
+  firstplugin.fly:
+    description: permission for using fly
+    default: op
+  firstplugin.feed:
+    description: permission for feeding
+    default: op

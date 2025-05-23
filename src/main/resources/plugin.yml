@@ -1,0 +1,60 @@
+name: WZUtils
+version: 1.0
+main: com.wilzeus.wzutils.WZUtils
+api-version: 1.20
+commands:
+  clearchat:
+    description: Clears the chat for everyone.
+    usage: /clearchat
+  gmc:
+    description: Set's the executor's gamemode to creative.
+    usage: /gmc
+  gms:
+    description: Set's the executor's gamemode to survival.
+    usage: /gms
+  fly:
+    description: Gives the executor the ability to fly.
+    usage: /fly
+  heal:
+    description: Heals the executor.
+    usage: /heal
+  feed:
+    description: Feeds the executor.
+    usage: /feed
+  ping:
+    description: Pings the executor.
+    usage: /ping
+  hat:
+    description: Sets the executor's hat to the item in their hand.
+    usage: /hat
+  glow:
+    description: Makes the executor glow.
+    usage: /glow
+permissions:
+  firstplugin.heal:
+    description: Permission for healing.
+    default: op
+  firstplugin.lightning:
+    description: Permission for lightning.
+    default: op
+  clearchat.use:
+    description: Permission for using the clearchat command.
+    default: op
+  firstplugin.gmc:
+    description: Permission for using gmc.
+    default: op
+  firstplugin.gms:
+    description: Permission for using gms.
+    default: op
+  firstplugin.fly:
+    description: Permission for using fly.
+    default: op
+  firstplugin.feed:
+    description: Permission for feeding.
+    default: op
+  vanish.use:
+    description: Permission for vanish.
+    default: op
+  god.use:
+    description: Permission for god.
+    default: op
